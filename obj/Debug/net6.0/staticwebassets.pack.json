@@ -1,0 +1,297 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookStation.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BookStation.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\images\\authors\\107ab6c6-4b9b-46da-a35a-2b37b47c8dad.jpg",
+      "PackagePath": "staticwebassets\\images\\authors\\107ab6c6-4b9b-46da-a35a-2b37b47c8dad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\images\\authors\\407e5485-ada0-4347-a610-e70131a6fe0c.jpg",
+      "PackagePath": "staticwebassets\\images\\authors\\407e5485-ada0-4347-a610-e70131a6fe0c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\images\\authors\\434e76dc-1706-4eec-affc-26cf70cc4769.png",
+      "PackagePath": "staticwebassets\\images\\authors\\434e76dc-1706-4eec-affc-26cf70cc4769.png"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\images\\authors\\9f3d0726-03b6-4af8-b31e-4e29b74719d3.png",
+      "PackagePath": "staticwebassets\\images\\authors\\9f3d0726-03b6-4af8-b31e-4e29b74719d3.png"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\images\\authors\\c5f4e841-03ca-4080-876f-eb22079704cd.png",
+      "PackagePath": "staticwebassets\\images\\authors\\c5f4e841-03ca-4080-876f-eb22079704cd.png"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\images\\authors\\c761849d-f669-4230-a14b-d9315b0e0a27.jpg",
+      "PackagePath": "staticwebassets\\images\\authors\\c761849d-f669-4230-a14b-d9315b0e0a27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\images\\authors\\e0e24a2b-225c-4ad2-b1f5-a01c92f36a3a.jpg",
+      "PackagePath": "staticwebassets\\images\\authors\\e0e24a2b-225c-4ad2-b1f5-a01c92f36a3a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\images\\books\\df03d4a7-37cd-43f4-a4de-88265d4d5d8b.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\df03d4a7-37cd-43f4-a4de-88265d4d5d8b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BookStation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BookStation.props",
+      "PackagePath": "build\\BookStation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BookStation.props",
+      "PackagePath": "buildMultiTargeting\\BookStation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BookStation.props",
+      "PackagePath": "buildTransitive\\BookStation.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,67 @@
+﻿@model List<BookStation.Models.Domain.Author>
+
+<h1>Authors</h1>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Author ID</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Biography</th>
+            <th>Image</th>
+            <th>Books</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var author in Model)
+        {
+            <tr>
+                <td>
+                    @author.AuthorId
+                </td>
+                <td>
+                    @author.Name
+                </td>
+                <td>
+                    @author.Address
+                </td>
+                <td>
+                    @author.Biography
+                </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(author.Image))
+                    {
+                        <img src="@author.Image"
+                             alt="@author.Name"
+                             height="100"
+                             width="100" />
+                    }
+                </td>
+                <td>
+                    <ul>
+                        @foreach (var book in author.Books)
+                        {
+                            <li>@book.Title</li>
+                        }
+                    </ul>
+                </td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a asp-controller="Author" asp-action="Edit" asp-route-id="@author.AuthorId"
+                           class="btn btn-primary">Edit</a>
+                        <form asp-controller="Author" asp-action="Delete" asp-route-id="@author.AuthorId"
+                              onsubmit="return confirm('Are you sure you want to delete this author?');"
+                              method="post">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Author" asp-action="Add" class="btn btn-primary">Add Author</a>
+
