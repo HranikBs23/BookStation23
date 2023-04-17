@@ -13,6 +13,8 @@
                 <th>Description</th>
                 <th>Price</th>
                 <th>Cover Image</th>
+                <th>Edit</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -29,6 +31,12 @@
                         {
                             <img src="@book.CoverImage" alt="@book.Title" height="100" />
                         }
+                    </td>
+                    <td>
+                        <a asp-controller="Book" asp-action="Edit" asp-route-id="@book.BookId" class="btn btn-primary">Edit</a>
+                    </td>
+                    <td>
+                        <a asp-controller="Book" asp-action="Delete" asp-route-id="@book.BookId" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
             }
