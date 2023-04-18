@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sVP8jGpb8Xp6Bcjn0iQCWtgQhxiXi70QB55IF8AJJlE=",
+  "Hash": "w5FO5A6lw+qCaU3Vx7l0gwyTFMCnDN+D3lgvkhQhO+A=",
   "Source": "BookStation",
   "BasePath": "_content/BookStation",
   "Mode": "Default",
@@ -202,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\authors\\e0e24a2b-225c-4ad2-b1f5-a01c92f36a3a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\images\\books\\50110b45-c6b5-427e-9178-4f8d6fc19bbb.png",
+      "SourceId": "BookStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\",
+      "BasePath": "_content/BookStation",
+      "RelativePath": "images/books/50110b45-c6b5-427e-9178-4f8d6fc19bbb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\books\\50110b45-c6b5-427e-9178-4f8d6fc19bbb.png"
     },
     {
       "Identity": "C:\\Users\\BS-1019\\Desktop\\Projects\\BookStation\\BookStation\\wwwroot\\images\\books\\df03d4a7-37cd-43f4-a4de-88265d4d5d8b.jpg",

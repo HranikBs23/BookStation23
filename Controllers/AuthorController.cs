@@ -1,20 +1,14 @@
 ﻿using BookStation.Data;
 using BookStation.Models.Domain;
 using BookStation.Models.ViewModels;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace BookStation.Controllers
 {
+    // The AuthorController class inherits from the Controller class
     public class AuthorController : Controller
     {
+        // The ILogger<AuthorController>, BookStationDbContext, and IWebHostEnvironment dependencies are injected via the constructor
         private readonly ILogger<AuthorController> _logger;
         private readonly BookStationDbContext _context;
         private readonly IWebHostEnvironment _env;
@@ -26,8 +20,10 @@ namespace BookStation.Controllers
             _env = env;
         }
 
+        //The Index action method returns a view that displays a list of Authors and their Books
         public IActionResult Index()
         {
+            // The list of books with their corresponding authors is fetched from the database using the BookStationDbContext
             List<Author> authors = _context.Authors.ToList();
             foreach (var author in authors)
             {
@@ -36,18 +32,25 @@ namespace BookStation.Controllers
             return View(authors);
         }
 
+
+        // GET: Author/Add
+        // Displays the form for adding a new Author
         public IActionResult Add()
         {
             return View(new AddAuthorViewModel());
         }
 
+        // POST: Book/Add
+        // Handles the submission of the form for adding a new Author
         [HttpPost]
         public async Task<IActionResult> Add(AddAuthorViewModel model)
         {
-
+            // Remove the AuthorId 
             ModelState.Remove("AuthorId");
+            //checking model state
             if (ModelState.IsValid)
             {
+                //creating a Author object and populate the data from viewmodel
                 Author author = new Author
                 {
                     Name = model.Name,
@@ -128,7 +131,7 @@ namespace BookStation.Controllers
                 author.Biography = model.Biography;
 
                 // Check if an image file was uploaded
-                if (model.Image != null && model.Image.Length > 0)
+                if (model.Image?.Length > 0)
                 {
                     // Get the file name and extension
                     var fileName = Path.GetFileName(model.Image.FileName);
@@ -165,18 +168,24 @@ namespace BookStation.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
+            // Find the author with the given ID
             var author = await _context.Authors.FindAsync(id);
+            
+            // If the author does not exist, return a 404 Not Found error
             if (author == null)
             {
                 return NotFound();
             }
-
+            
+            // Find all books that belong to the author
             var books = _context.Books.Where(b => b.AuthorId == id);
-
+            // Remove all books that belong to the author
             _context.Books.RemoveRange(books);
+            // Remove the author from the database
             _context.Authors.Remove(author);
+            // Save the changes to the database
             await _context.SaveChangesAsync();
-
+            // Redirect to the Index action
             return RedirectToAction(nameof(Index));
         }
 

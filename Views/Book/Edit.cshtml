@@ -1,41 +1,48 @@
 ﻿@model BookStation.Models.ViewModels.EditBookViewModel
 
-<h2>Edit Book</h2>
+<h1>Edit Book</h1>
 
 <form method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <input type="hidden" asp-for="BookId" />
+
     <div class="form-group">
-        <label for="Title">Title:</label>
-        <input type="text" class="form-control" id="Title" name="Title" value="@Model.Title">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
         <span asp-validation-for="Title" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="AuthorId">Author:</label>
-        
+        <label asp-for="AuthorId"></label>
+        <select asp-for="AuthorId" asp-items="Model.Authors" class="form-control"></select>
         <span asp-validation-for="AuthorId" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="Language">Language:</label>
-        <input type="text" class="form-control" id="Language" name="Language" value="@Model.Language">
+        <label asp-for="Language"></label>
+        <input asp-for="Language" class="form-control" />
         <span asp-validation-for="Language" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="Description">Description:</label>
-        <textarea class="form-control" id="Description" name="Description">@Model.Description</textarea>
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="Price">Price:</label>
-        <input type="number" class="form-control" id="Price" name="Price" value="@Model.Price">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
         <span asp-validation-for="Price" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="CoverImage">Cover Image:</label>
-        <input type="file" class="form-control-file" id="CoverImage" name="CoverImage">
-        @if (!string.IsNullOrEmpty(Model.ExistingCoverImage))
-        {
-            <img src="@Model.NewCoverImage" alt="@Model.Title" height="100" />
-        }
+        <label asp-for="NewCoverImage"></label>
+        <input asp-for="NewCoverImage" type="file" class="form-control-file" />
+        <img asp-for="ExistingCoverImage" src="@Model.ExistingCoverImage" class="img-thumbnail" width="200" />
+        <span asp-validation-for="NewCoverImage" class="text-danger"></span>
     </div>
+
     <button type="submit" class="btn btn-primary">Save</button>
-    <a asp-controller="Book" asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
